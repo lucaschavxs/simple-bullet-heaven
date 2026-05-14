@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://dijpqim4rwbmr" path="res://player.tscn" id="1_e2o6t"]
 [ext_resource type="PackedScene" uid="uid://cffxomwemuw14" path="res://pine_tree.tscn" id="2_feb5d"]
+[ext_resource type="PackedScene" uid="uid://8s3hjy6trfrj" path="res://mob.tscn" id="3_feb5d"]
 
 [node name="Game" type="Node2D" unique_id=1421342929]
 y_sort_enabled = true
@@ -11,7 +12,7 @@ offset_right = 1928.0
 offset_bottom = 1079.0
 
 [node name="Player" parent="." unique_id=500776604 instance=ExtResource("1_e2o6t")]
-position = Vector2(928, 584)
+position = Vector2(756, 506)
 
 [node name="PineTree" parent="." unique_id=1308050122 instance=ExtResource("2_feb5d")]
 position = Vector2(223, 256)
@@ -20,7 +21,7 @@ position = Vector2(223, 256)
 position = Vector2(353, 914)
 
 [node name="PineTree3" parent="." unique_id=1951696497 instance=ExtResource("2_feb5d")]
-position = Vector2(617, 506)
+position = Vector2(617, 400)
 
 [node name="PineTree4" parent="." unique_id=1261583885 instance=ExtResource("2_feb5d")]
 position = Vector2(1309, 192)
@@ -36,3 +37,24 @@ position = Vector2(1205, 854)
 
 [node name="PineTree8" parent="." unique_id=989671252 instance=ExtResource("2_feb5d")]
 position = Vector2(1626, 633)
+
+[node name="Mob" parent="." unique_id=1882136866 instance=ExtResource("3_feb5d")]
+position = Vector2(806, 233)
+
+[node name="Mob2" parent="." unique_id=1275766527 instance=ExtResource("3_feb5d")]
+position = Vector2(1157, 447)
+
+[node name="Mob3" parent="." unique_id=852533019 instance=ExtResource("3_feb5d")]
+position = Vector2(218, 549)
+
+[node name="Mob4" parent="." unique_id=2121312711 instance=ExtResource("3_feb5d")]
+position = Vector2(258, 634)
+
+[node name="Mob5" parent="." unique_id=1037919443 instance=ExtResource("3_feb5d")]
+position = Vector2(1437, 1097)
+
+[node name="Mob6" parent="." unique_id=1207474111 instance=ExtResource("3_feb5d")]
+position = Vector2(1788, 416)
+
+[node name="Mob7" parent="." unique_id=920434547 instance=ExtResource("3_feb5d")]
+position = Vector2(658, 1252)
