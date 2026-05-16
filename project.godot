@@ -75,6 +75,7 @@ Settings/Show_Tooltips=true
 [application]
 
 config/name="VampireSurvivors-GDQuest"
+run/main_scene="uid://dsje7isxh8ouc"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.png"
 
